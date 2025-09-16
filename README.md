@@ -38,16 +38,21 @@ The Smart-Note app is a user-friendly single-page application that allows you to
 
 ### 3. How to Start the App
 
-To run the application, you need to start the backend server.
+To run the application, you need to set up the project and start the backend server.
 
-1.  **Set up the `.env` file:**
+1.  **Clone the Repository:**
+    * If you have Git installed, open your terminal and clone the project to your local machine:
+    ```bash
+    git clone <repository_url>
+    ```
+    * Replace `<repository_url>` with the URL of this Git repository.
+2.  **Set up the `.env` file:**
     * Create a file named `.env` in your project's root directory (`Group-43-Project/`).
     * Add your MongoDB connection string and Gemini API key to this file:
     ```env
     MONGO_URI="your_mongodb_connection_string"
     GEMINI_API_KEY="your_gemini_api_key"
     ```
-2.  **Open your terminal** or command prompt.
 3.  **Navigate to the `backend` directory** of the project using the `cd` command.
     ```bash
     cd backend
