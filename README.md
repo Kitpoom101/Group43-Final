@@ -10,6 +10,7 @@ A single-page web application that helps users manage and enhance their notes wi
 3. [How to Start the App](#3-how-to-start-the-app)
 4. [Fulfilling Project Requirements](#4-fulfilling-project-requirements)
 5. [How the AI is used](#5-how-the-ai-is-used)
+6. [Authors](#6-authors)
 
 ---
 
@@ -39,20 +40,27 @@ The Smart-Note app is a user-friendly single-page application that allows you to
 
 To run the application, you need to start the backend server.
 
-1.  **Open your terminal** or command prompt.
-2.  **Navigate to the `backend` directory** of the project using the `cd` command.
+1.  **Set up the `.env` file:**
+    * Create a file named `.env` in your project's root directory (`Group-43-Project/`).
+    * Add your MongoDB connection string and Gemini API key to this file:
+    ```env
+    MONGO_URI="your_mongodb_connection_string"
+    GEMINI_API_KEY="your_gemini_api_key"
+    ```
+2.  **Open your terminal** or command prompt.
+3.  **Navigate to the `backend` directory** of the project using the `cd` command.
     ```bash
     cd backend
     ```
-3.  **Install Dependencies:** If you haven't already, run the following command to install all the necessary libraries and packages for your server:
+4.  **Install Dependencies:** If you haven't already, run the following command to install all the necessary libraries and packages for your server:
     ```bash
     npm install
     ```
-4.  **Start the server** by running the main file with Node.js.
+5.  **Start the server** by running the main file with Node.js.
     ```bash
     node server.js
     ```
-5.  Once the server is running, open your web browser and navigate to **`http://localhost:3000`** to view the application.
+6.  Once the server is running, open your web browser and navigate to **`http://localhost:3000`** to view the application.
 
 ---
 
@@ -66,7 +74,7 @@ To run the application, you need to start the backend server.
 * **Front-end & Back-end:** The project uses standard web technologies on the front end and Node.js with Express.js on the back end. The data is stored in a **MongoDB** database.
 * **Responsive Design:** The `style.css` file includes media queries to ensure the application's layout adapts and displays correctly on different screen sizes.
 * **LLM API in Detail:** The `server.js` file uses the Gemini API to process user prompts based on the requested `type` (`summarize`, `generate-title`, or `elaborate`), providing a seamless AI-powered experience.
-* **AI in Coding Process:** AI tools were used to assist in writing code snippets, explaining complex concepts, debugging errors, and suggesting improvements for code readability and efficiency during the development process.
+* **AI in Coding Process:** AI tools like GitHub Copilot and ChatGPT were used to assist in writing code snippets, explaining complex concepts, debugging errors, and suggesting improvements for code readability and efficiency during the development process.
 
 ---
 
@@ -77,3 +85,18 @@ The AI's primary function is to enhance the note-taking experience with smart, a
 1.  **Summarize:** The AI helps users quickly get the main points of a long note body, useful for condensing lecture notes or long paragraphs into a concise summary.
 2.  **Generate Title:** This feature is for creative title generation. Users can provide a brief outline, and the AI will generate a suitable and descriptive title for the note.
 3.  **Elaborate:** The AI helps users expand on a topic. Given a title or a keyword, it can generate a more detailed description, providing key concepts and essential information.
+
+---
+
+### 6. Authors 👥
+
+This project was created by:
+
+* **Kaweekorn Satjayan** - 6833007921
+* **Kirakorn Vitayawatanakul** - 6833026821
+* **Kitpoom Theptawee** - 6833004021
+* **Natnicha Inthong** - 6833083521
+* **Paweekorn Dechatiwong Na Ayutthaya** - 6833161821
+* **Sirawit Kanchanakhirithamrong** - 6833266021
+
+Project for Group 43
