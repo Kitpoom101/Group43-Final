@@ -65,19 +65,37 @@ Generate Title: This feature is for creative title generation. Users can write a
 Elaborate: The elaborate feature helps users expand on a topic. Given a title or a keyword, the AI can generate a more detailed description, providing key concepts and essential information.
 
 5. How to Start the App
-To run the application, you need to start the backend server.
+Download the Project Files:
 
-Open your terminal or command prompt.
+If you received the project as a .zip file, extract all the contents to a folder on your computer.
 
-Navigate to the backend directory of the project using the cd command.
+Open Your Terminal:
+
+Open your system's terminal or command prompt.
+
+Navigate to the Backend Directory:
+
+Use the cd (change directory) command to go into the backend folder, which contains your server files.
+
+For example: 
+    cd path/to/your/project/backend
+
+Install Dependencies:
+
+Run the following command to install all the necessary libraries and packages for your server:
+
 Bash
 
-    cd backend
+    npm install
 
-Start the server by running the main file with Node.js.
+Start the Server:
+
+Once the installation is complete, start the server with this command:
 
 Bash
 
     node server.js
+    
+View the Application:
 
-Once the server is running, you can open your web browser and navigate to "http://localhost:3000" to view the application.
+Open your web browser and go to http://localhost:3000. The application should now be running.
